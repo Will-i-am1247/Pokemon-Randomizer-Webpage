@@ -1,0 +1,49 @@
+<!DOCTYPE html>     
+<html>
+<script src="randomizer.js" defer>
+</script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Random Pokemon Generator</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+        <nav class="nav-link"> 
+        <a href="HomePage.html" target=_self title="Home">
+            Home
+        </a>
+
+        <a href="randomPokemon.html" target=_self title="Pokemon Generate Page">
+            Randomizer
+        </a>
+    </nav>
+
+    <h1>Click to Generate Random Pokemon!
+    </h1>
+    
+
+<!-- I chatted the following -->
+    <section id="gallery" class="page">
+    <div class="controls"> 
+        <button id="roll" type="button">Randomize!</button>
+        <button id="show-all" type="button">Show All (Gen 1–9)</button>
+        <button id="close-all" type="button">Stop Showing All!</button>
+        
+        <label style="margin-left:1rem;">
+        <input id="toggle-names" type="checkbox" checked>
+            Show names
+        </label>
+        <span id="status"></span>
+    </div>
+
+    <div id="cards"></div>
+    </section>
+
+
+
+</body>
+
+</html>
