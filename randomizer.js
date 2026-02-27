@@ -1,4 +1,4 @@
-/* I just had chat do all of the java script. It contains the database of all the pokemon from PokeApi and the randomizing, showing everything, closing, and turning off and on the names because it wasn't required for me to do but I wanted it to work*/
+/* I used ChatGPT to assist me in writing this file. It contains the database of all the pokemon from PokeApi and the randomizing, showing everything, closing, and turning off and on the names because it wasn't required for me to do but I wanted it to work*/
 (() => {
   'use strict';
 
