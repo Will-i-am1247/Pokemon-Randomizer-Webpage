@@ -92,7 +92,7 @@
         applyNameVisibility();            // <-- keep honoring the toggle
         statusEl.textContent = `Loaded ${loaded} / ${MAX_SPECIES_ID}`;
       }
-      if (!signal.aborted) statusEl.textContent = 'Done.';
+      if (!signal.aborted) statusEl.textContent = '';
     } catch (e) {
       if (signal.aborted) return;
       console.error(e); statusEl.textContent = 'Error while loading.';
